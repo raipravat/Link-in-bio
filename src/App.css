@@ -1109,13 +1109,12 @@
 /* Footer */
 .footer {
   background-color: var(--nav-color);
-  padding:1rem 0;
+  padding: 1rem 0;
   text-align: center;
 }
 
 .copyright {
   color: var(--light-color);
-
 }
 
 /* Scroll to Top Button */
@@ -1148,6 +1147,20 @@
 
 .scroll-to-top:hover {
   transform: translateY(-0.1875rem) scale(1.1);
+}
+
+/* Google reCAPTCHA Badge */
+.grecaptcha-badge {
+  left: 0 !important;
+  right: auto !important;
+}
+
+.grecaptcha-badge {
+  position: fixed !important;
+  bottom: 14px !important;
+  left: 14px !important;
+  right: auto !important;
+  z-index: 1000 !important;
 }
 
 /* ==================== MEDIA QUERIES ==================== */
