@@ -1120,7 +1120,7 @@
 /* Scroll to Top Button */
 .scroll-to-top {
   position: fixed;
-  bottom: clamp(1.25rem, 3vw, 1.875rem);
+  bottom: 6rem;
   right: clamp(1.25rem, 3vw, 1.875rem);
   width: clamp(2.8125rem, 5vw, 3.125rem);
   height: clamp(2.8125rem, 5vw, 3.125rem);
@@ -1147,20 +1147,6 @@
 
 .scroll-to-top:hover {
   transform: translateY(-0.1875rem) scale(1.1);
-}
-
-/* Google reCAPTCHA Badge */
-.grecaptcha-badge {
-  left: 0 !important;
-  right: auto !important;
-}
-
-.grecaptcha-badge {
-  position: fixed !important;
-  bottom: 14px !important;
-  left: 14px !important;
-  right: auto !important;
-  z-index: 1000 !important;
 }
 
 /* ==================== MEDIA QUERIES ==================== */
